@@ -1,0 +1,95 @@
+body {
+    background-color: lightblue;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    width: 50%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.error {
+    color: red;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #f0f0f0;
+}
+
+.logout {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+/* Style the top portion with a white background */
+header {
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+/* General fixes to the CSS */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #add8e6; /* Light blue background */
+}
+
+.container {
+    width: 60%; /* Adjusted width for better layout */
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Make the textarea larger with full width */
+textarea {
+    width: 90%; /* 90% width */
+    height: 200px; /* Increased height for better usability */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none; /* Prevent resizing */
+}
+
+button {
+    background-color: #4CAF50; /* Green button */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+/* Additional styling for diary entry display */
+.diary-entry {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.timestamp {
+    color: #888;
+    font-size: 0.9em;
+}
